@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border;
+}
+.row{
+    border-radius: 30px;
+    width:auto;
+    height:37.5rem;
+    background-color:rgb(147,147,147);
+    box-shadow: 12px 12px 24px;
+}
+img{
+    width:120%;
+    height: 37.5rem;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-top-right-radius: 90px;
+    border-bottom-right-radius: 90px;
+}
+.container h1{
+    font-size: 4rem;
+    font-weight: 300;
+}
+input{
+    height:50px;
+    width: 70%;
+    border:none;
+    outline:none;
+    border-radius: 60px;
+    box-shadow: -26px -19px 30px -19px rgba(7,7,7,0.9) ;
+}
+.btn1{
+    height: 50px;
+    width:30%;
+    border:none;
+    outline: none;
+    border-radius: 60px;
+    background-color: rgba(0,234,255);
+}
+.btn1:hover{
+    background-color: rgb(0, 132, 255);
+}
+.fa{
+    font-size: 30px;
+    padding: 3px;
+}
+.fa-facebook-square:hover{
+    color:blue;
+}
+.fa-instagram:hover{
+    color:rgb(255, 0, 183);
+}
+.fa-github-square:hover{
+    color:black;
+}
+.fa-linkedin-square:hover{
+    color:blue;
+}
